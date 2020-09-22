@@ -1,0 +1,44 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       background-image: url('cyber2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+}
+
+
+.container{
+    width:80%;
+    margin: 20px auto;
+    border: 2px solid blue;
+    overflow:auto;
+    padding: 15px;
+    background-color: gray;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    background-color: darkslateblue;
+    border: 2px solid darkseagreen;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+nav a:hover{
+    color: darkblue;
+    background-color: gray;
+}
